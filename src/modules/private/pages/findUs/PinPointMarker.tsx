@@ -107,7 +107,7 @@ const PinPointMarker: React.FC<PinPointMarkerProps> = () => {
 					</Grid>
 					<Grid item xs={12} className="w-full " sx={{ height: '70vh' }}>
 						<GoogleMapReact
-							bootstrapURLKeys={{ key: 'AIzaSyAi4dJ1jgWNGTVbmK15KazlxJ5bl_Mkcz0' }}
+							bootstrapURLKeys={{ key: 'AIzaSyAi4dJ1jgWNGTVbmK15KazlxJ5bl_Mkcz0_00010' }}
 							center={{ lat, lng }}
 							defaultZoom={defaultProps.zoom}
 							onClick={handleMap}
