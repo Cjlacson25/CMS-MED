@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import '@splidejs/splide/dist/css/splide.min.css';
+
+body {
+	font-family: 'Noto Sans';
+	scroll-behavior: smooth;
+	font-size: 14px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.splide__pagination__page {
+	width: 14px;
+	height: 14px;
+	background: #2f557f;
+	margin-left: 5px;
+	margin-right: 5px;
+	opacity: 0.8;
+}
+
+.splide__pagination__page.is-active {
+	background: #cccc;
+}
+
+.splide__pagination__page:hover {
+	opacity: 1;
+}
+
+/* div iframe[frameborder='0'][title='chat widget'] {
+	right: 100px !important;
+} */

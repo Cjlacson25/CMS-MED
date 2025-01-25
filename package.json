@@ -1,0 +1,94 @@
+{
+	"name": "frontend",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@emotion/react": "^11.9.3",
+		"@emotion/styled": "^11.9.3",
+		"@hybrain/mui.ui.data-display.h-table": "^0.1.38",
+		"@hybrain/mui.ui.dialogs.h-confirmation-dialog": "^0.0.37",
+		"@hybrain/mui.ui.dialogs.h-dialog": "^0.0.37",
+		"@hybrain/mui.ui.feedback.h-loading-indicator": "^0.0.4",
+		"@hybrain/mui.ui.feedback.h-toast": "^0.0.5",
+		"@hybrain/mui.ui.formik.grid.h-grid-form-date-picker": "^0.0.39",
+		"@hybrain/mui.ui.formik.grid.h-grid-form-select": "^0.0.34",
+		"@hybrain/mui.ui.formik.grid.h-grid-form-text-field": "^0.0.34",
+		"@hybrain/mui.ui.formik.h-form": "^0.0.64",
+		"@hybrain/mui.ui.formik.h-form-checkbox": "^0.0.60",
+		"@hybrain/mui.ui.formik.h-form-date-time-picker": "^0.0.44",
+		"@hybrain/mui.ui.formik.h-form-file-input": "^0.0.77",
+		"@hybrain/mui.ui.formik.h-form-select": "^0.0.61",
+		"@hybrain/mui.ui.formik.h-form-text-field": "^0.0.66",
+		"@hybrain/mui.ui.formik.h-form-time-picker": "^0.1.21",
+		"@hybrain/mui.ui.inputs.h-button": "^0.0.37",
+		"@hybrain/mui.ui.inputs.h-checkbox": "^0.0.6",
+		"@hybrain/mui.ui.inputs.h-select": "^0.0.11",
+		"@hybrain/mui.ui.inputs.h-text-field": "^0.0.17",
+		"@hybrain/mui.ui.navigation.h-side-bar": "^0.0.12",
+		"@mui/icons-material": "^5.8.3",
+		"@mui/lab": "^5.0.0-alpha.65",
+		"@mui/material": "^5.8.3",
+		"@mui/x-date-pickers": "^5.0.0-beta.0",
+		"@react-hook/resize-observer": "^1.2.5",
+		"@splidejs/react-splide": "^0.7.8",
+		"@tawk.to/tawk-messenger-react": "^2.0.1",
+		"@testing-library/jest-dom": "^5.16.4",
+		"@testing-library/react": "^13.3.0",
+		"@testing-library/user-event": "^13.5.0",
+		"@types/jest": "^27.5.2",
+		"@types/node": "^16.11.39",
+		"@types/react": "^18.0.12",
+		"@types/react-dom": "^18.0.5",
+		"axios": "^0.27.2",
+		"date-fns": "^2.28.0",
+		"env-cmd": "^10.1.0",
+		"formik": "^2.2.9",
+		"google-map-react": "^2.1.10",
+		"localforage": "^1.10.0",
+		"mobx": "^6.6.0",
+		"mobx-react-lite": "^3.4.0",
+		"react": "^18.1.0",
+		"react-dom": "^18.1.0",
+		"react-quill": "^1.3.5",
+		"react-router-dom": "^6.3.0",
+		"react-scripts": "5.0.1",
+		"typescript": "^4.7.3",
+		"web-vitals": "^2.1.4"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"start:staging": "env-cmd -f .env.staging npm run start",
+		"start:staging_client": "env-cmd -f .env.staging_client npm run start",
+		"start:production": "env-cmd -f .env.production npm run start",
+		"build": "react-scripts build",
+		"build:staging": "env-cmd -f .env.staging npm run build",
+		"build:staging_client": "env-cmd -f .env.staging_client npm run build",
+		"build:production": "env-cmd -f .env.production npm run build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"@types/google-map-react": "^2.1.7",
+		"autoprefixer": "^10.4.7",
+		"postcss": "^8.4.14",
+		"tailwindcss": "^3.1.2"
+	}
+}
